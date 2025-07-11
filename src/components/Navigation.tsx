@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Shield } from "lucide-react";
 import { Link } from "react-router-dom";
+import Logo from "./Logo";
 
 interface NavigationProps {
   currentPage?: string;
@@ -13,10 +13,7 @@ const Navigation = ({ currentPage = "" }: NavigationProps) => {
     <nav className="border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <Shield className="h-8 w-8 text-blue-900" />
-            <span className="text-2xl font-bold text-blue-900">NIKOLAX Electrical</span>
-          </div>
+          <Logo variant="dark" size="md" />
           <div className="hidden md:flex items-center space-x-8">
             <Link 
               to="/" 

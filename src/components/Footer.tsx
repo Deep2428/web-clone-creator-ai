@@ -1,5 +1,5 @@
-import { Shield } from "lucide-react";
 import { Link } from "react-router-dom";
+import Logo from "./Logo";
 
 const Footer = () => {
   return (
@@ -7,9 +7,8 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <Shield className="h-8 w-8 text-amber-400" />
-              <span className="text-2xl font-bold">NIKOLAX Electrical</span>
+            <div className="mb-4">
+              <Logo variant="light" size="md" />
             </div>
             <p className="text-slate-400 leading-relaxed">
               India's premier electrical safety solutions provider, protecting critical infrastructure 
