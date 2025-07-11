@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -14,7 +13,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Shield className="h-8 w-8 text-blue-900" />
-              <span className="text-2xl font-bold text-blue-900">Bharat Shield</span>
+              <span className="text-2xl font-bold text-blue-900">NIKOLAX Electrical</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <Link to="/" className="text-slate-700 hover:text-blue-900 font-medium">Home</Link>
@@ -65,7 +64,7 @@ const Index = () => {
                 Engineering Excellence in <span className="text-blue-900">Electrical Safety</span>
               </h2>
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                For over two decades, Bharat Shield has been at the forefront of electrical safety solutions, 
+                For over two decades, NIKOLAX Electrical has been at the forefront of electrical safety solutions, 
                 protecting India's most critical infrastructure projects. Our commitment to engineering precision 
                 and technical authority has made us the trusted partner for industries nationwide.
               </p>
@@ -296,7 +295,7 @@ const Index = () => {
                   <Mail className="h-6 w-6 text-amber-400 mr-4" />
                   <div>
                     <div className="font-semibold">Email Us</div>
-                    <div className="text-slate-300">info@bharatshield.com</div>
+                    <div className="text-slate-300">info@nikolaxelectrical.com</div>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -366,7 +365,7 @@ const Index = () => {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Shield className="h-8 w-8 text-amber-400" />
-                <span className="text-2xl font-bold">Bharat Shield</span>
+                <span className="text-2xl font-bold">NIKOLAX Electrical</span>
               </div>
               <p className="text-slate-400 leading-relaxed">
                 India's premier electrical safety solutions provider, protecting critical infrastructure 
@@ -406,7 +405,7 @@ const Index = () => {
           </div>
           
           <div className="border-t border-slate-700 mt-8 pt-8 text-center text-slate-400">
-            <p>&copy; 2024 Bharat Shield. All rights reserved. | Privacy Policy | Terms of Service</p>
+            <p>&copy; 2024 NIKOLAX Electrical. All rights reserved. | Privacy Policy | Terms of Service</p>
           </div>
         </div>
       </footer>

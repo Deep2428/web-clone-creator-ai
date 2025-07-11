@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -125,7 +124,7 @@ const Products = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Shield className="h-8 w-8 text-blue-900" />
-              <span className="text-2xl font-bold text-blue-900">Bharat Shield</span>
+              <span className="text-2xl font-bold text-blue-900">NIKOLAX Electrical</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <Link to="/" className="text-slate-700 hover:text-blue-900 font-medium">Home</Link>
@@ -256,7 +255,7 @@ const Products = () => {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Shield className="h-8 w-8 text-amber-400" />
-                <span className="text-2xl font-bold">Bharat Shield</span>
+                <span className="text-2xl font-bold">NIKOLAX Electrical</span>
               </div>
               <p className="text-slate-400 leading-relaxed">
                 India's premier electrical safety solutions provider, protecting critical infrastructure 
@@ -296,7 +295,7 @@ const Products = () => {
           </div>
           
           <div className="border-t border-slate-700 mt-8 pt-8 text-center text-slate-400">
-            <p>&copy; 2024 Bharat Shield. All rights reserved. | Privacy Policy | Terms of Service</p>
+            <p>&copy; 2024 NIKOLAX Electrical. All rights reserved. | Privacy Policy | Terms of Service</p>
           </div>
         </div>
       </footer>
