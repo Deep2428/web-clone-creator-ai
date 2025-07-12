@@ -93,61 +93,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* About Section */}
-      <section className="py-16">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto text-center mb-12">
-            <h2 className="text-4xl font-bold text-slate-900 mb-8">About NIKOLAX Electrical</h2>
-            <p className="text-xl text-slate-700 mb-8 leading-relaxed">
-              NIKOLAX Electrical is a future-ready company providing next-generation lightning protection, earthing systems, surge protection, and grounding solutions.
-            </p>
-            <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-              Our mission is simple — to make Indian infrastructure safer, smarter, and more electrically resilient. Whether it's a solar plant, airport, refinery, high-rise, or data center, we serve mission-critical sectors where reliability is non-negotiable.
-            </p>
-            <p className="text-lg text-slate-700 leading-relaxed">
-              Though new in the market, we bring together the best components, engineered and manufactured by top-tier OEMs — chosen for their global trust and technical superiority. Our role is to make these systems accessible, support installation planning, and ensure they're deployed right the first time.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-12 mt-16">
-            <div className="bg-blue-50 p-8 rounded-lg">
-              <h3 className="text-2xl font-bold text-blue-900 mb-4 flex items-center">
-                <span className="text-3xl mr-3">🌍</span>
-                Our Vision
-              </h3>
-              <p className="text-slate-700 leading-relaxed">
-                To be India's most trusted partner for safe, smart, and sustainable electrical grounding and lightning protection — empowering every building and project to meet global safety benchmarks.
-              </p>
-            </div>
-
-            <div className="bg-amber-50 p-8 rounded-lg">
-              <h3 className="text-2xl font-bold text-amber-800 mb-4 flex items-center">
-                <span className="text-3xl mr-3">🎯</span>
-                Our Mission
-              </h3>
-              <ul className="text-slate-700 space-y-3">
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                  Supply reliable, certified, and industry-grade electrical safety components
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                  Bridge the gap between world-class OEMs and local project needs
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                  Educate the industry about compliant lightning and earthing systems
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                  Provide technical support and transparent pricing clients can trust
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Products & Solutions */}
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-6">
