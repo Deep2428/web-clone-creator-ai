@@ -1,32 +1,16 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Shield, Award, Users, Target, Eye, Heart, CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 const About = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Navigation */}
-      <nav className="border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
-        <div className="container mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
-            <Link to="/" className="flex items-center space-x-2">
-              <Shield className="h-8 w-8 text-blue-900" />
-              <span className="text-2xl font-bold text-blue-900">NIKOLAX Electrical</span>
-            </Link>
-            <div className="hidden md:flex items-center space-x-8">
-              <Link to="/" className="text-slate-700 hover:text-blue-900 font-medium">Home</Link>
-              <Link to="/about" className="text-blue-900 font-medium">About Us</Link>
-              <Link to="/products" className="text-slate-700 hover:text-blue-900 font-medium">Products</Link>
-              <Link to="/industries" className="text-slate-700 hover:text-blue-900 font-medium">Industries</Link>
-              <Link to="/contact" className="text-slate-700 hover:text-blue-900 font-medium">Contact</Link>
-            </div>
-            <Button className="bg-blue-900 hover:bg-blue-800 text-white">
-              Get Quote
-            </Button>
-          </div>
-        </div>
-      </nav>
+      <Navigation currentPage="about" />
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white py-16">
@@ -137,8 +121,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      {/* Mission, Vision, Values - REMOVED (already included above) */}
 
       {/* Why Choose section */}
       <section className="py-16">
@@ -355,56 +337,7 @@ const About = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-800 text-white py-12">
-        <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <Link to="/" className="flex items-center space-x-2 mb-4">
-                <Shield className="h-8 w-8 text-amber-400" />
-                <span className="text-2xl font-bold">Bharat Shield</span>
-              </Link>
-              <p className="text-slate-400 leading-relaxed">
-                India's premier electrical safety solutions provider, protecting critical infrastructure 
-                with engineering excellence since 2000.
-              </p>
-            </div>
-            
-            <div>
-              <h3 className="font-semibold text-lg mb-4">Products</h3>
-              <ul className="space-y-2 text-slate-400">
-                <li><Link to="/products" className="hover:text-white">Lightning Protection</Link></li>
-                <li><Link to="/products" className="hover:text-white">Earthing Systems</Link></li>
-                <li><Link to="/products" className="hover:text-white">Surge Protection</Link></li>
-                <li><Link to="/products" className="hover:text-white">Safety Equipment</Link></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h3 className="font-semibold text-lg mb-4">Industries</h3>
-              <ul className="space-y-2 text-slate-400">
-                <li><Link to="/industries" className="hover:text-white">Power Plants</Link></li>
-                <li><Link to="/industries" className="hover:text-white">High-Rise Buildings</Link></li>
-                <li><Link to="/industries" className="hover:text-white">Telecom Towers</Link></li>
-                <li><Link to="/industries" className="hover:text-white">Manufacturing</Link></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h3 className="font-semibold text-lg mb-4">Company</h3>
-              <ul className="space-y-2 text-slate-400">
-                <li><Link to="/about" className="hover:text-white">About Us</Link></li>
-                <li><Link to="/contact" className="hover:text-white">Contact</Link></li>
-                <li><Link to="#" className="hover:text-white">Careers</Link></li>
-                <li><Link to="#" className="hover:text-white">News</Link></li>
-              </ul>
-            </div>
-          </div>
-          
-          <div className="border-t border-slate-700 mt-8 pt-8 text-center text-slate-400">
-            <p>&copy; 2024 Bharat Shield. All rights reserved. | Privacy Policy | Terms of Service</p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
