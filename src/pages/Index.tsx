@@ -39,59 +39,86 @@ const Index = () => {
       </section>
 
       {/* Lightning Protection Explanation */}
-      <section className="py-16 bg-slate-50">
+      <section className="py-20 bg-gradient-to-b from-slate-50 to-white">
         <div className="container mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl font-bold text-slate-900 mb-6 flex items-center">
-                <Zap className="h-10 w-10 text-amber-500 mr-3" />
-                Why Lightning Protection Matters
-              </h2>
-              <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                A single lightning strike can release over 100 million volts of electricity — enough to destroy equipment, trigger fires, and put lives at risk.
-              </p>
-              <p className="text-lg text-slate-700 mb-6 leading-relaxed">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="space-y-6">
+              <div className="flex items-center mb-8">
+                <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mr-4">
+                  <Zap className="h-8 w-8 text-amber-600" />
+                </div>
+                <h2 className="text-4xl font-bold text-slate-900">
+                  Why Lightning Protection Matters
+                </h2>
+              </div>
+              
+              <div className="bg-red-50 border-l-4 border-red-400 p-6 rounded-r-lg">
+                <p className="text-lg text-slate-800 font-medium leading-relaxed">
+                  A single lightning strike can release over <span className="text-red-600 font-bold">100 million volts</span> of electricity — enough to destroy equipment, trigger fires, and put lives at risk.
+                </p>
+              </div>
+              
+              <p className="text-lg text-slate-700 leading-relaxed">
                 That's why high-rise buildings, factories, and critical infrastructure must have a properly installed Lightning Protection System (LPS).
               </p>
               
-              <div className="mb-8">
-                <h3 className="text-xl font-semibold text-slate-900 mb-4">This diagram illustrates how our system works:</h3>
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-slate-900 mb-6 flex items-center">
+                  <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mr-3">
+                    <span className="text-white font-bold text-sm">i</span>
+                  </div>
+                  How Our System Works:
+                </h3>
                 <div className="space-y-4">
-                  <div className="flex items-start">
-                    <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                      <span className="text-blue-900 font-bold text-sm">1</span>
+                  <div className="flex items-start group">
+                    <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center mr-4 mt-1 group-hover:bg-blue-700 transition-colors">
+                      <span className="text-white font-bold">1</span>
                     </div>
-                    <p className="text-slate-700">The ESE Air Terminal on the rooftop captures the lightning strike.</p>
+                    <p className="text-slate-700 leading-relaxed pt-2">
+                      The <strong>ESE Air Terminal</strong> on the rooftop captures the lightning strike with advanced early streamer emission technology.
+                    </p>
                   </div>
-                  <div className="flex items-start">
-                    <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                      <span className="text-blue-900 font-bold text-sm">2</span>
+                  <div className="flex items-start group">
+                    <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center mr-4 mt-1 group-hover:bg-blue-700 transition-colors">
+                      <span className="text-white font-bold">2</span>
                     </div>
-                    <p className="text-slate-700">The Down Conductor safely channels the current down the building.</p>
+                    <p className="text-slate-700 leading-relaxed pt-2">
+                      The <strong>Down Conductor</strong> safely channels the current down the building structure.
+                    </p>
                   </div>
-                  <div className="flex items-start">
-                    <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                      <span className="text-blue-900 font-bold text-sm">3</span>
+                  <div className="flex items-start group">
+                    <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center mr-4 mt-1 group-hover:bg-blue-700 transition-colors">
+                      <span className="text-white font-bold">3</span>
                     </div>
-                    <p className="text-slate-700">The energy is then dispersed harmlessly through a dedicated Earthing System.</p>
+                    <p className="text-slate-700 leading-relaxed pt-2">
+                      The energy is dispersed harmlessly through a dedicated <strong>Earthing System</strong>.
+                    </p>
                   </div>
                 </div>
               </div>
               
-              <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-                At NIKOLAX Electrical, we help you build that defense — engineered to meet international standards and tailored to your site's needs.
-              </p>
-              
-              <Button className="bg-blue-900 hover:bg-blue-800">
-                Learn More About Our Systems
-              </Button>
+              <div className="bg-gradient-to-r from-slate-900 to-blue-900 text-white p-6 rounded-lg">
+                <p className="text-lg leading-relaxed mb-4">
+                  At <strong>NIKOLAX Electrical</strong>, we help you build that defense — engineered to meet international standards and tailored to your site's needs.
+                </p>
+                <Button className="bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold">
+                  Learn More About Our Systems
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </div>
             </div>
+            
             <div className="relative">
-              <img 
-                src="https://images.unsplash.com/photo-1500673922987-e212871fec22" 
-                alt="Lightning Protection System" 
-                className="rounded-lg shadow-2xl"
-              />
+              <div className="bg-gradient-to-br from-green-100 to-blue-100 p-8 rounded-2xl shadow-2xl">
+                <img 
+                  src="/lovable-uploads/edcd8407-88ef-403b-b08b-5d5d06e07cf1.png" 
+                  alt="Lightning Protection System Diagram showing ESE Air Terminal, Down Conductor, and Earthing System" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
+              <div className="absolute -bottom-4 -right-4 bg-amber-400 text-slate-900 px-4 py-2 rounded-full font-semibold text-sm shadow-lg">
+                Complete Protection System
+              </div>
             </div>
           </div>
         </div>
