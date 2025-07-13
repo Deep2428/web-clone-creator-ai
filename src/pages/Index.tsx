@@ -38,38 +38,58 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Company Introduction */}
+      {/* Lightning Protection Explanation */}
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-slate-900 mb-6">
-                We Are Built for <span className="text-blue-900">Infrastructure-Grade Protection</span>
+              <h2 className="text-4xl font-bold text-slate-900 mb-6 flex items-center">
+                <Zap className="h-10 w-10 text-amber-500 mr-3" />
+                Why Lightning Protection Matters
               </h2>
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                At NIKOLAX Electrical, we deliver high-performance safety and grounding solutions trusted across infrastructure, power, telecom, industrial, and government sectors.
+                A single lightning strike can release over 100 million volts of electricity — enough to destroy equipment, trigger fires, and put lives at risk.
               </p>
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                Backed by technology used by global leaders in lightning and electrical safety, our offerings meet international standards — ensuring compliance, reliability, and long-term protection.
+                That's why high-rise buildings, factories, and critical infrastructure must have a properly installed Lightning Protection System (LPS).
               </p>
-              <div className="grid grid-cols-2 gap-6 mb-8">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-900 mb-2">500+</div>
-                  <div className="text-slate-600">Projects Completed</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-900 mb-2">20+</div>
-                  <div className="text-slate-600">Years Experience</div>
+              
+              <div className="mb-8">
+                <h3 className="text-xl font-semibold text-slate-900 mb-4">This diagram illustrates how our system works:</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start">
+                    <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                      <span className="text-blue-900 font-bold text-sm">1</span>
+                    </div>
+                    <p className="text-slate-700">The ESE Air Terminal on the rooftop captures the lightning strike.</p>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                      <span className="text-blue-900 font-bold text-sm">2</span>
+                    </div>
+                    <p className="text-slate-700">The Down Conductor safely channels the current down the building.</p>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                      <span className="text-blue-900 font-bold text-sm">3</span>
+                    </div>
+                    <p className="text-slate-700">The energy is then dispersed harmlessly through a dedicated Earthing System.</p>
+                  </div>
                 </div>
               </div>
+              
+              <p className="text-lg text-slate-700 mb-8 leading-relaxed">
+                At NIKOLAX Electrical, we help you build that defense — engineered to meet international standards and tailored to your site's needs.
+              </p>
+              
               <Button className="bg-blue-900 hover:bg-blue-800">
-                Learn More About Us
+                Learn More About Our Systems
               </Button>
             </div>
             <div className="relative">
               <img 
                 src="https://images.unsplash.com/photo-1500673922987-e212871fec22" 
-                alt="Electrical Infrastructure" 
+                alt="Lightning Protection System" 
                 className="rounded-lg shadow-2xl"
               />
             </div>
