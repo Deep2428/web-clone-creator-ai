@@ -27,7 +27,7 @@ export const productCategories: ProductCategory[] = [
     products: [
       {
         name: "ESE Air Terminals",
-        image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837",
+        image: "/lovable-uploads/24ab51c8-6222-48b1-a075-bf221c321255.png",
         description: "Early Streamer Emission air terminals with superior protection radius and proven efficiency.",
         features: ["60m protection radius", "Stainless steel construction", "IEC 62305 compliant", "10-year warranty"],
         applications: ["Industrial facilities", "High-rise buildings", "Power plants"]

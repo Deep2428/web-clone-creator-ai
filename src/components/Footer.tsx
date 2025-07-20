@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import Logo from "./Logo";
 
@@ -5,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-slate-800 text-white py-12">
       <div className="container mx-auto px-6">
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           <div>
             <div className="mb-4">
               <Logo variant="light" size="md" />
@@ -23,16 +24,6 @@ const Footer = () => {
               <li><Link to="/products" className="hover:text-white">Earthing Systems</Link></li>
               <li><Link to="/products" className="hover:text-white">Surge Protection</Link></li>
               <li><Link to="/products" className="hover:text-white">Safety Equipment</Link></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="font-semibold text-lg mb-4">Industries</h3>
-            <ul className="space-y-2 text-slate-400">
-              <li><Link to="/industries" className="hover:text-white">Power Plants</Link></li>
-              <li><Link to="/industries" className="hover:text-white">High-Rise Buildings</Link></li>
-              <li><Link to="/industries" className="hover:text-white">Telecom Towers</Link></li>
-              <li><Link to="/industries" className="hover:text-white">Manufacturing</Link></li>
             </ul>
           </div>
           
