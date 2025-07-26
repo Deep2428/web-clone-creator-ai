@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -8,6 +7,10 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  const scrollToContact = () => {
+    document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="min-h-screen bg-background">
       {/* Navigation */}
@@ -35,13 +38,17 @@ const Index = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold px-8 py-4 text-lg shadow-xl">
-                Explore Solutions
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 text-lg shadow-xl">
-                Request a Quote
-              </Button>
+              <Link to="/products">
+                <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold px-8 py-4 text-lg shadow-xl">
+                  Explore Solutions
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </Link>
+              <Link to="/contact">
+                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 text-lg shadow-xl">
+                  Request a Quote
+                </Button>
+              </Link>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
@@ -125,10 +132,12 @@ const Index = () => {
                 <p className="text-lg leading-relaxed mb-4">
                   At <strong>NIKOLAX Electrical</strong>, we help you build that defense — engineered to meet international standards and tailored to your site's needs.
                 </p>
-                <Button className="bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold">
-                  Learn More About Our Systems
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+                <Link to="/products">
+                  <Button className="bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold">
+                    Learn More About Our Systems
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </Link>
               </div>
             </div>
             
@@ -192,9 +201,11 @@ const Index = () => {
                     Surge Arresters
                   </div>
                 </div>
-                <Button variant="outline" className="w-full group-hover:bg-blue-900 group-hover:text-white transition-colors">
-                  Learn More
-                </Button>
+                <Link to="/products">
+                  <Button variant="outline" className="w-full group-hover:bg-blue-900 group-hover:text-white transition-colors">
+                    Learn More
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
 
@@ -231,9 +242,11 @@ const Index = () => {
                     Maintenance-Free Systems
                   </div>
                 </div>
-                <Button variant="outline" className="w-full group-hover:bg-amber-600 group-hover:text-white transition-colors">
-                  Learn More
-                </Button>
+                <Link to="/products">
+                  <Button variant="outline" className="w-full group-hover:bg-amber-600 group-hover:text-white transition-colors">
+                    Learn More
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
 
@@ -270,9 +283,11 @@ const Index = () => {
                     Remote Monitoring
                   </div>
                 </div>
-                <Button variant="outline" className="w-full group-hover:bg-green-600 group-hover:text-white transition-colors">
-                  Learn More
-                </Button>
+                <Link to="/products">
+                  <Button variant="outline" className="w-full group-hover:bg-green-600 group-hover:text-white transition-colors">
+                    Learn More
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           </div>
@@ -442,7 +457,7 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="py-16 bg-slate-900 text-white">
+      <section id="contact-section" className="py-16 bg-slate-900 text-white">
         <div className="container mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
@@ -457,14 +472,14 @@ const Index = () => {
                   <Phone className="h-6 w-6 text-amber-400 mr-4" />
                   <div>
                     <div className="font-semibold">Call Us</div>
-                    <div className="text-slate-300">+91 98765 43210</div>
+                    <a href="tel:+919876543210" className="text-slate-300 hover:text-white">+91 98765 43210</a>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-6 w-6 text-amber-400 mr-4" />
                   <div>
                     <div className="font-semibold">Email Us</div>
-                    <div className="text-slate-300">info@nikolaxelectrical.com</div>
+                    <a href="mailto:info@nikolax.com" className="text-slate-300 hover:text-white">info@nikolax.com</a>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -518,9 +533,11 @@ const Index = () => {
                   rows={4}
                   className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
                 ></textarea>
-                <Button className="w-full bg-blue-900 hover:bg-blue-800 text-white py-3 text-lg">
-                  Submit Inquiry
-                </Button>
+                <Link to="/contact">
+                  <Button className="w-full bg-blue-900 hover:bg-blue-800 text-white py-3 text-lg">
+                    Submit Inquiry
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           </div>
