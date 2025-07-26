@@ -15,8 +15,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      {console.log('Index page JSX rendering...')}
-      
       {/* Navigation */}
       <Navigation currentPage="home" />
 
