@@ -7,12 +7,16 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  console.log('Index page rendering...');
+
   const scrollToContact = () => {
     document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
     <div className="min-h-screen bg-background">
+      {console.log('Index page JSX rendering...')}
+      
       {/* Navigation */}
       <Navigation currentPage="home" />
 
