@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -26,7 +27,7 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex justify-center mb-6">
               <Badge className="bg-amber-500/20 text-amber-300 border-amber-500/30 px-6 py-2 text-lg">
-                🏆 India's Premier Electrical Safety Solutions
+                India's Premier Electrical Safety Solutions
               </Badge>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
@@ -81,7 +82,7 @@ const Index = () => {
                   <Zap className="h-8 w-8 text-amber-600" />
                 </div>
                 <h2 className="text-4xl font-bold text-slate-900">
-                  ⚡ Why Lightning Protection Matters
+                  Why Lightning Protection Matters
                 </h2>
               </div>
               
