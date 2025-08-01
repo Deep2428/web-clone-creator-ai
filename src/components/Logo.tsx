@@ -52,7 +52,7 @@ const Logo = ({ variant = "dark", size = "md" }: LogoProps) => {
           NIKOLAX
         </span>
         <span className={`font-inter font-medium tracking-wide ${sizeClasses[size].subText} ${colors[variant].sub} -mt-1`}>
-          ELECTRICAL
+          ELECTRICALS
         </span>
       </div>
     </div>

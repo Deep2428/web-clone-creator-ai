@@ -16,7 +16,7 @@ const About = () => {
       <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white py-16">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-bold mb-6">About NIKOLAX Electrical</h1>
+            <h1 className="text-5xl font-bold mb-6">About NIKOLAX ELECTRICALS</h1>
             <p className="text-xl text-slate-300 leading-relaxed">
               Two decades of engineering excellence in electrical safety solutions
             </p>
@@ -30,7 +30,7 @@ const About = () => {
           <div className="max-w-4xl mx-auto text-center mb-12">
             <h2 className="text-4xl font-bold text-slate-900 mb-8">We Are Built for Infrastructure-Grade Protection</h2>
             <p className="text-xl text-slate-700 mb-8 leading-relaxed">
-              NIKOLAX Electrical is a future-ready company providing next-generation lightning protection, earthing systems, surge protection, and grounding solutions.
+              NIKOLAX ELECTRICALS is a future-ready company providing next-generation lightning protection, earthing systems, surge protection, and grounding solutions.
             </p>
             <p className="text-lg text-slate-700 mb-8 leading-relaxed">
               Our mission is simple — to make Indian infrastructure safer, smarter, and more electrically resilient. Whether it's a solar plant, airport, refinery, high-rise, or data center, we serve mission-critical sectors where reliability is non-negotiable.
@@ -42,11 +42,11 @@ const About = () => {
 
           <div className="grid md:grid-cols-2 gap-12 mt-16">
             <div className="bg-blue-50 p-8 rounded-lg">
-              <h3 className="text-2xl font-bold text-blue-900 mb-4 flex items-center">
-                <span className="text-3xl mr-3">🌍</span>
+              <h3 className="text-3xl font-bold text-blue-900 mb-4 flex items-center">
+                <span className="text-4xl mr-3">🌍</span>
                 Our Vision
               </h3>
-              <p className="text-slate-700 leading-relaxed">
+              <p className="text-lg text-slate-700 leading-relaxed">
                 To be India's most trusted partner for safe, smart, and sustainable electrical grounding and lightning protection — empowering every building and project to meet global safety benchmarks.
               </p>
             </div>
@@ -79,22 +79,20 @@ const About = () => {
         </div>
       </section>
 
-      {/* Company Story */}
+      {/* Why Us Section */}
       <section className="py-16">
         <div className="container mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-slate-900 mb-6">Our Legacy</h2>
+              <h2 className="text-4xl font-bold text-slate-900 mb-6">Why Us</h2>
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                Founded in 2000, Bharat Shield emerged from a vision to protect India's rapidly growing 
-                industrial infrastructure from electrical hazards. What started as a small engineering 
-                consultancy has evolved into one of India's most trusted names in electrical safety solutions.
+                At NIKOLAX ELECTRICALS, we are proud to offer lightning protection and earthing solutions that meet the highest global standards of safety and performance.
               </p>
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                Our commitment to engineering precision, technical authority, and unwavering quality has 
-                earned us the trust of leading industries across the nation. From protecting critical power 
-                infrastructure to safeguarding high-rise buildings, we've been the shield that stands between 
-                electrical hazards and India's progress.
+                The products we provide are backed by unmatched quality and over two decades of engineering expertise. Designed for reliability and tested in some of the most demanding environments, our systems are trusted across critical infrastructure, industrial plants, commercial facilities, and smart energy projects.
+              </p>
+              <p className="text-lg text-slate-700 mb-6 leading-relaxed">
+                Whether it's an advanced ESE Lightning Arrester or a zero-maintenance Chemical Earthing System, our solutions bring together cutting-edge technology, proven designs, and technical precision — ensuring your people, property, and operations remain protected.
               </p>
               <div className="grid grid-cols-3 gap-6 text-center">
                 <div>
@@ -126,7 +124,7 @@ const About = () => {
       <section className="py-16">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-slate-900 mb-4">Why Choose Bharat Shield?</h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-4">Why Choose NIKOLAX ELECTRICALS?</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               The reasons why India's leading industries trust us with their most critical projects
             </p>
@@ -201,68 +199,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team Leadership */}
-      <section className="py-16 bg-slate-50">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-slate-900 mb-4">Leadership Team</h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Experienced professionals leading India's electrical safety revolution
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="text-center border-0 shadow-lg">
-              <CardHeader>
-                <div className="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <Users className="h-12 w-12 text-slate-500" />
-                </div>
-                <CardTitle className="text-xl text-slate-900">Founder & CEO</CardTitle>
-                <CardDescription className="text-slate-600">B.Tech Electrical, M.Tech Power Systems</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-slate-600 text-sm leading-relaxed">
-                  "Our mission is to protect India's infrastructure with world-class electrical safety solutions, 
-                  built on engineering excellence and unwavering commitment to quality."
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="text-center border-0 shadow-lg">
-              <CardHeader>
-                <div className="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <Users className="h-12 w-12 text-slate-500" />
-                </div>
-                <CardTitle className="text-xl text-slate-900">CTO</CardTitle>
-                <CardDescription className="text-slate-600">Ph.D Electrical Engineering, IIT Delhi</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-slate-600 text-sm leading-relaxed">
-                  Leading our technical innovation and product development, ensuring we stay at the forefront 
-                  of electrical safety technology.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="text-center border-0 shadow-lg">
-              <CardHeader>
-                <div className="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <Users className="h-12 w-12 text-slate-500" />
-                </div>
-                <CardTitle className="text-xl text-slate-900">Head of Operations</CardTitle>
-                <CardDescription className="text-slate-600">MBA Operations, 15+ Years Industry Experience</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-slate-600 text-sm leading-relaxed">
-                  Overseeing project execution and quality assurance, ensuring every installation meets 
-                  our exacting standards.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
       {/* Certifications */}
       <section className="py-16">
         <div className="container mx-auto px-6">
@@ -322,7 +258,7 @@ const About = () => {
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Partner with Us?</h2>
           <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Join hundreds of satisfied clients who trust Bharat Shield for their electrical safety needs. 
+            Join hundreds of satisfied clients who trust NIKOLAX ELECTRICALS for their electrical safety needs. 
             Let's discuss how we can protect your infrastructure.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

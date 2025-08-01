@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-slate-700 mt-8 pt-8 text-center text-slate-400">
-          <p>&copy; 2024 NIKOLAX Electrical Solutions Pvt. Ltd. All rights reserved.</p>
+          <p>&copy; 2024 NIKOLAX ELECTRICALS Solutions Pvt. Ltd. All rights reserved.</p>
           <div className="flex justify-center space-x-6 mt-2">
             <a href="#" className="hover:text-white text-sm transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white text-sm transition-colors">Terms of Service</a>
