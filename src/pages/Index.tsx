@@ -85,7 +85,7 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="/lovable-uploads/520d8524-016b-41a6-b6f2-854f53c4e7b0.png" 
+                src="/lovable-uploads/d36011f9-2edc-4b24-87fb-5a7c0e475e63.png" 
                 alt="ASLA ESE Air Terminal Lightning Protection System Diagram" 
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
