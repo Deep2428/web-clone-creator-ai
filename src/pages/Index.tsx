@@ -72,6 +72,84 @@ const Index = () => {
         </div>
       </section>
 
+      {/* How Lightning Protection Works */}
+      <section className="py-16">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">How Our Lightning Protection System Works</h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              Understanding the complete lightning protection system from air terminal to earthing
+            </p>
+          </div>
+          
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <img 
+                src="/lovable-uploads/520d8524-016b-41a6-b6f2-854f53c4e7b0.png" 
+                alt="ASLA ESE Air Terminal Lightning Protection System Diagram" 
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
+            </div>
+            
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold text-slate-900 mb-6">Complete System Components</h3>
+              
+              <div className="space-y-4">
+                <div className="flex items-start">
+                  <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                    <span className="text-blue-600 font-bold text-sm">1</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-slate-900">ASLA ESE Air Terminal</h4>
+                    <p className="text-slate-600">Advanced Early Streamer Emission technology installed on the roof with mounting base for optimal lightning interception.</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                    <span className="text-amber-600 font-bold text-sm">2</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-slate-900">Down Conductor System</h4>
+                    <p className="text-slate-600">High-conductivity copper conductors with axis conductor saddles for safe lightning current path to ground.</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                    <span className="text-green-600 font-bold text-sm">3</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-slate-900">Lightning Strike Counter</h4>
+                    <p className="text-slate-600">Axis lightning strike counter monitors and records lightning activity for maintenance tracking.</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                    <span className="text-purple-600 font-bold text-sm">4</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-slate-900">Earthing System</h4>
+                    <p className="text-slate-600">Comprehensive earthing system with electrical earthing line ensures safe dissipation of lightning energy into the ground.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-blue-50 p-6 rounded-lg mt-8">
+                <h4 className="font-bold text-slate-900 mb-2">Key Advantages</h4>
+                <ul className="space-y-2 text-sm text-slate-700">
+                  <li className="flex items-center"><CheckCircle className="h-4 w-4 text-green-600 mr-2" /> 60m protection radius coverage</li>
+                  <li className="flex items-center"><CheckCircle className="h-4 w-4 text-green-600 mr-2" /> IEC 62305 international standard compliance</li>
+                  <li className="flex items-center"><CheckCircle className="h-4 w-4 text-green-600 mr-2" /> Real-time lightning strike monitoring</li>
+                  <li className="flex items-center"><CheckCircle className="h-4 w-4 text-green-600 mr-2" /> Integrated earthing system design</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us Section */}
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-6">
